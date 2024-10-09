@@ -9,14 +9,91 @@
         "wdth" 100;
 }
 
-/* Primary Text  */
+
+/* shared styles  */
 
 .primary-text {
     color: #FD6E0A;
 }
 
-/* nav style  */
+.btn-primary {
+    background-color: #FD6E0A;
+    color: white;
+    padding: 20px 40px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+
+}
+
+/* header styles  */
+.header {
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+
+}
+
+
+/* nav styles  */
+
+.dark-2 {
+    color: #474747;
+}
+
+
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
 
 nav {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li a {
+    text-decoration: none;
+    font: 20px;
+}
+
+/* banner-styles */
+
+.banner {
+
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+
+.banner-container {
+    max-width: 584px;
+}
+
+.banner-greetings {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.banner-title {
+    font-weight: bold;
+    font-size: 85px;
+}
+
+.banner-profile-pic {
+
+    width: 584px;
 }
